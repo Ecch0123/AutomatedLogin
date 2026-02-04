@@ -1,0 +1,8 @@
+name: Automated Login
+'on': push
+jobs:
+  my-job:
+    run: unbuntu-latest
+    steps:
+      - name: my-step
+      run: echo "Automated Login"
